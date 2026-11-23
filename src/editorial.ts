@@ -17,11 +17,11 @@ export const freemans = [
 
 export const neighbors = [
   {
-    id: 'jazmine', name: 'Jazmine DuBois', label: 'Jazmine', line: 'The lemonade stand',
+    id: 'jazmine', name: 'Jazmine DuBois', label: 'Jazmine', image: 'jazmine-dubois.webp', alt: 'Jazmine DuBois in a white shirt with yellow stars',
     copy: 'Jazmine’s lemonade stand starts as an ordinary sidewalk business. Woodcrest’s wealthiest resident sees something bigger in it, and the show asks who gets to profit from an idea.',
   },
   {
-    id: 'ruckus', name: 'Uncle Ruckus', label: 'Uncle Ruckus', line: 'A familiar face',
+    id: 'ruckus', name: 'Uncle Ruckus', label: 'Uncle Ruckus', image: 'uncle-ruckus.webp', alt: 'Uncle Ruckus wearing a dark suit and blue tie outdoors in Woodcrest',
     copy: 'Ruckus voices the racial prejudice that Woodcrest likes to imagine it has outgrown. The satire comes from the certainty with which he defends those ideas even when they work against him.',
   },
 ] as const;

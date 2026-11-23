@@ -66,9 +66,9 @@ function AroundTheBlock() {
       <div className="chapter-inner">
         <p className="section-kicker">Woodcrest residents</p><h2 id="neighbors-title">Around the block</h2>
         <div className="block-stage">
-          <div key={neighbor.id} className="block-visual reveal" data-tone={neighbor.id} aria-hidden>
-            <span>{neighbor.line}</span><strong>{neighbor.label}</strong>
-          </div>
+          <figure className="block-visual">
+            <img key={neighbor.id} className="reveal" src={media(neighbor.image)} alt={neighbor.alt} loading="lazy" />
+          </figure>
           <div className="block-copy">
             <div className="neighbor-choices" role="group" aria-label="Choose a neighbour">
               {neighbors.map((item, index) => <button key={item.id} type="button" aria-pressed={selection === index} onClick={() => select(index)}>{item.label}</button>)}
